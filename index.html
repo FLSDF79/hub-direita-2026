@@ -1,1 +1,571 @@
-PLACEHOLDER_USE_FILE
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hub Direita — Munição | Flávio × Lula</title>
+  <meta name="description" content="Hub local de munição política — 2º turno Flávio Bolsonaro vs Lula até 25/10/2026" />
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --bg-elev: #121212;
+      --bg-card: #161616;
+      --bg-card-hover: #1c1c1c;
+      --border: #2a2a2a;
+      --text: #f2f2f2;
+      --muted: #9a9a9a;
+      --green: #00c853;
+      --green-dim: #00a844;
+      --gold: #d4a017;
+      --gold-dim: #b8860b;
+      --red: #e53935;
+      --red-dim: #c62828;
+      --radius: 10px;
+      --font: "Segoe UI", system-ui, -apple-system, Roboto, Ubuntu, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: linear-gradient(180deg, #0f0f0f 0%, rgba(11,11,11,0.96) 100%);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+    }
+
+    .topbar-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 16px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .brand-left h1 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, var(--green), var(--gold));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .brand-left .sub {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 2px;
+    }
+
+    .badge-runoff {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #1a1a1a;
+      border: 1px solid var(--gold-dim);
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 6px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .badge-runoff .dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 8px var(--green);
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-bottom: 0;
+    }
+    .tabs::-webkit-scrollbar { display: none; }
+
+    .tab {
+      flex: 0 0 auto;
+      appearance: none;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 10px 12px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+      white-space: nowrap;
+    }
+
+    .tab:hover { color: var(--text); }
+
+    .tab.active {
+      color: var(--green);
+      border-bottom-color: var(--green);
+    }
+
+    .tab[data-section="absurdo"].active,
+    .tab[data-section="stf"].active {
+      color: var(--red);
+      border-bottom-color: var(--red);
+    }
+
+    .tab[data-section="fora"].active {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+    }
+
+    /* Main */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 64px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .section-head h2 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+    }
+
+    .section-head .meta {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .alert-strip {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      margin-bottom: 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .alert-strip.show { display: flex; }
+
+    .alert-strip.red {
+      background: rgba(229, 57, 53, 0.12);
+      border: 1px solid rgba(229, 57, 53, 0.4);
+      color: #ff8a80;
+    }
+
+    .alert-strip.gold {
+      background: rgba(212, 160, 23, 0.1);
+      border: 1px solid rgba(212, 160, 23, 0.35);
+      color: #ffd54f;
+    }
+
+    /* Cards grid */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    @media (min-width: 640px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (min-width: 960px) {
+      .grid { grid-template-columns: 1fr 1fr 1fr; }
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.15s, background 0.15s, transform 0.15s;
+    }
+
+    .card:hover {
+      background: var(--bg-card-hover);
+      border-color: #3a3a3a;
+      transform: translateY(-1px);
+    }
+
+    .card.alert-red {
+      border-left: 3px solid var(--red);
+    }
+
+    .card.alert-gold {
+      border-left: 3px solid var(--gold);
+    }
+
+    .card.alert-green {
+      border-left: 3px solid var(--green);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .card-source {
+      color: var(--gold);
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 65%;
+    }
+
+    .card h3 {
+      font-size: 0.98rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--text);
+    }
+
+    .card p {
+      font-size: 0.86rem;
+      color: #c8c8c8;
+      flex: 1;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #222;
+      color: var(--muted);
+      border: 1px solid #333;
+    }
+
+    .card a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 4px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: transparent;
+      border: 1px solid var(--green-dim);
+      color: var(--green);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .card a.btn:hover {
+      background: var(--green);
+      color: #000;
+    }
+
+    .card.alert-red a.btn {
+      border-color: var(--red-dim);
+      color: #ff8a80;
+    }
+    .card.alert-red a.btn:hover {
+      background: var(--red);
+      color: #fff;
+    }
+
+    /* States */
+    .empty, .error, .loading {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 48px 16px;
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      background: var(--bg-elev);
+    }
+
+    .error { color: #ff8a80; border-color: rgba(229,57,53,0.4); }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 16px 32px;
+      color: var(--muted);
+      font-size: 0.75rem;
+      text-align: center;
+    }
+
+    footer strong { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-left">
+          <h1>Hub Direita — Munição</h1>
+          <p class="sub">Fabiano Lopes · 2º turno Flávio Bolsonaro × Lula · até 25/10/2026</p>
+        </div>
+        <div class="badge-runoff"><span class="dot"></span> 2º turno · 25/10</div>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Seções">
+        <button class="tab active" role="tab" data-section="hoje" aria-selected="true">Hoje</button>
+        <button class="tab" role="tab" data-section="comentaristas" aria-selected="false">Comentaristas</button>
+        <button class="tab" role="tab" data-section="noticias" aria-selected="false">Notícias</button>
+        <button class="tab" role="tab" data-section="absurdo" aria-selected="false">Absurdo Esquerda</button>
+        <button class="tab" role="tab" data-section="stf" aria-selected="false">STF</button>
+        <button class="tab" role="tab" data-section="fora" aria-selected="false">Fora do Comum</button>
+        <button class="tab" role="tab" data-section="arquivo" aria-selected="false">Arquivo</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="alert" class="alert-strip" role="status"></div>
+
+    <section id="panel-hoje" class="panel active" role="tabpanel">
+      <div class="section-head">
+        <h2>Hoje — digest</h2>
+        <span class="meta" data-count="hoje">—</span>
+      </div>
+      <div class="grid" id="grid-hoje"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-comentaristas" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>Comentaristas</h2>
+        <span class="meta" data-count="comentaristas">—</span>
+      </div>
+      <div class="grid" id="grid-comentaristas"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-noticias" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>Notícias — direita + Flávio</h2>
+        <span class="meta" data-count="noticias">—</span>
+      </div>
+      <div class="grid" id="grid-noticias"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-absurdo" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>Absurdo Esquerda</h2>
+        <span class="meta" data-count="absurdo">—</span>
+      </div>
+      <div class="grid" id="grid-absurdo"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-stf" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>STF</h2>
+        <span class="meta" data-count="stf">—</span>
+      </div>
+      <div class="grid" id="grid-stf"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-fora" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>Fora do Comum</h2>
+        <span class="meta" data-count="fora">—</span>
+      </div>
+      <div class="grid" id="grid-fora"><div class="loading">Carregando…</div></div>
+    </section>
+
+    <section id="panel-arquivo" class="panel" role="tabpanel">
+      <div class="section-head">
+        <h2>Arquivo</h2>
+        <span class="meta" data-count="arquivo">—</span>
+      </div>
+      <div class="grid" id="grid-arquivo"><div class="loading">Carregando…</div></div>
+    </section>
+  </main>
+
+  <footer>
+    Hub local · dados em <strong>data/*.json</strong> · monitor bruto em
+    <strong>/workspace/monitor-direita/</strong> · 1º turno: Flávio 47,08% × Lula 45,10%
+  </footer>
+
+  <script>
+    const SECTIONS = {
+      hoje:          { file: "data/hoje.json",          accent: "green", alert: null },
+      comentaristas: { file: "data/comentaristas.json", accent: "green", alert: null },
+      noticias:      { file: "data/noticias.json",      accent: "green", alert: null },
+      absurdo:       { file: "data/absurdo.json",       accent: "red",   alert: { cls: "red",  text: "⚠ Alertas e absurdos da esquerda — usar com fonte e link." } },
+      stf:           { file: "data/stf.json",           accent: "red",   alert: { cls: "red",  text: "⚠ STF / censura / bloqueios — registrar decisões e impactos." } },
+      fora:          { file: "data/fora.json",          accent: "gold",  alert: { cls: "gold", text: "⚡ Anomalias de pleito, TSE, censura eleitoral — separar rumor de fato." } },
+      arquivo:       { file: "data/arquivo.json",       accent: "green", alert: null }
+    };
+
+    const TITLES = {
+      hoje: "Hoje",
+      comentaristas: "Comentaristas",
+      noticias: "Notícias",
+      absurdo: "Absurdo Esquerda",
+      stf: "STF",
+      fora: "Fora do Comum",
+      arquivo: "Arquivo"
+    };
+
+    function esc(s) {
+      return String(s ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function formatDate(iso) {
+      if (!iso) return "—";
+      const m = String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
+      if (!m) return esc(iso);
+      return `${m[3]}/${m[2]}/${m[1]}`;
+    }
+
+    function cardHTML(item, accent) {
+      const tags = (item.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("");
+      const alertClass = accent === "red" ? "alert-red" : accent === "gold" ? "alert-gold" : "alert-green";
+      const url = item.url || "#";
+      return `
+        <article class="card ${alertClass}">
+          <div class="card-meta">
+            <span class="card-source" title="${esc(item.source)}">${esc(item.source)}</span>
+            <time datetime="${esc(item.date)}">${formatDate(item.date)}</time>
+          </div>
+          <h3>${esc(item.title)}</h3>
+          <p>${esc(item.summary)}</p>
+          <div class="tags">${tags}</div>
+          <a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Abrir fonte →</a>
+        </article>`;
+    }
+
+    function sortByDateDesc(arr) {
+      return [...arr].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+    }
+
+    async function loadSection(key) {
+      const cfg = SECTIONS[key];
+      const grid = document.getElementById("grid-" + key);
+      const countEl = document.querySelector(`[data-count="${key}"]`);
+      try {
+        const res = await fetch(cfg.file + "?t=" + Date.now());
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error("JSON não é array");
+        const items = sortByDateDesc(data);
+        countEl.textContent = items.length === 0
+          ? "0 itens"
+          : items.length === 1
+            ? "1 item"
+            : items.length + " itens";
+        if (items.length === 0) {
+          grid.innerHTML = `<div class="empty">Sem entradas ainda. Adicione cards em <code>${esc(cfg.file)}</code>.</div>`;
+        } else {
+          grid.innerHTML = items.map(it => cardHTML(it, cfg.accent)).join("");
+        }
+      } catch (err) {
+        countEl.textContent = "erro";
+        grid.innerHTML = `<div class="error">Falha ao carregar <code>${esc(cfg.file)}</code>.<br>${esc(err.message)}<br><small>Abra via servidor local (file:// pode bloquear fetch) ou confirme o JSON.</small></div>`;
+      }
+    }
+
+    function activate(key) {
+      document.querySelectorAll(".tab").forEach(t => {
+        const on = t.dataset.section === key;
+        t.classList.toggle("active", on);
+        t.setAttribute("aria-selected", on ? "true" : "false");
+      });
+      document.querySelectorAll(".panel").forEach(p => {
+        p.classList.toggle("active", p.id === "panel-" + key);
+      });
+      const alert = document.getElementById("alert");
+      const cfg = SECTIONS[key];
+      if (cfg.alert) {
+        alert.className = "alert-strip show " + cfg.alert.cls;
+        alert.textContent = cfg.alert.text;
+      } else {
+        alert.className = "alert-strip";
+        alert.textContent = "";
+      }
+      if (location.hash !== "#" + key) {
+        history.replaceState(null, "", "#" + key);
+      }
+    }
+
+    document.querySelectorAll(".tab").forEach(btn => {
+      btn.addEventListener("click", () => activate(btn.dataset.section));
+    });
+
+    async function boot() {
+      await Promise.all(Object.keys(SECTIONS).map(loadSection));
+      const hash = (location.hash || "#hoje").slice(1);
+      activate(SECTIONS[hash] ? hash : "hoje");
+    }
+
+    boot();
+  </script>
+</body>
+</html>
