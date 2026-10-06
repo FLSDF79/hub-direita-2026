@@ -1,11 +1,44 @@
 [
   {
+    "id": "fora-2026-10-05-atraso-tse",
+    "date": "2026-10-05",
+    "source": "CNN Brasil",
+    "title": "FORA DO COMUM: divulgação do TSE ficou ~1h parada em 64% das seções",
+    "summary": "Por volta das 19h de 04/10, a atualização nacional da apuração ficou cerca de uma hora praticamente parada. O presidente do TSE, Kassio Nunes Marques, atribuiu a um congestionamento no sistema de divulgação por fluxo de dados acima do normal. Não há relato de alteração de votos; usar como fato (atraso), não como prova de fraude.",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-tse-ainda-totaliza-secoes-finais-apos-atraso-no-sistema-de-dados/",
+    "tags": [
+      "fora-do-comum",
+      "TSE",
+      "apuração",
+      "atraso"
+    ]
+  },
+  {
+    "id": "fora-2026-10-02-fake-padroeira",
+    "date": "2026-10-02",
+    "source": "G1 / O Globo",
+    "title": "TSE manda remover posts falsos que ligavam Flávio à retirada de Nossa Senhora como padroeira",
+    "summary": "O TSE determinou a exclusão de publicações que afirmam, como fato, que Flávio ou a família propôs ou apoiou retirar Nossa Senhora Aparecida do posto de padroeira. Críticas e opiniões continuam no ar. Bom contra-argumento quando a mentira circular de novo.",
+    "url": "https://g1.globo.com/jornal-nacional/noticia/2026/10/01/tse-decide-pela-exclusao-de-publicacoes-que-ligavam-flavio-bolsonaro-do-pl-a-retirada-de-nossa-senhora-aparecida-do-posto-de-padroeira-do-brasil.ghtml",
+    "tags": [
+      "fake-news",
+      "TSE",
+      "Flávio",
+      "padroeira"
+    ]
+  },
+  {
     "id": "fora-2026-10-04-alegacoes",
     "date": "2026-10-04",
     "source": "Comentários @euricd1 / redes",
     "title": "FORA DO COMUM: alegações de fraude nos comentários pós-urna",
-    "summary": "No reel de Ricardo Brasil, comentários misturam apoio a Flávio com denúncias de fraude. Separar rumor de fato: cruzar com atas, boletins de urna e decisões do TSE.",
+    "summary": "No reel de Ricardo Brasil, milhares de comentários misturam apoio a Flávio com denúncias de fraude e desconfiança no sistema. Separar rumor de fato: cruzar com atas, boletins de urna e decisões do TSE. Qualquer anomalia documentada entra aqui com fonte e link.",
     "url": "https://www.instagram.com/reel/DeF_GDKhD69/",
-    "tags": ["fora-do-comum", "fraude", "TSE", "pleito"]
+    "tags": [
+      "fora-do-comum",
+      "fraude",
+      "TSE",
+      "pleito"
+    ]
   }
 ]

@@ -1,11 +1,61 @@
 [
   {
+    "id": "hoje-2026-10-05-oficial",
+    "date": "2026-10-05",
+    "source": "TSE via Folha / Estadão / Portal Contexto",
+    "title": "Oficial: Flávio 47,03% (56,1 mi) × Lula 45,16% (53,9 mi) — 2,22 milhões de votos de vantagem",
+    "summary": "Com 100% das seções totalizadas, Flávio Bolsonaro teve 56.104.503 votos (47,03%) e Lula 53.879.538 (45,16%), diferença de 2.224.965. Flávio superou a votação de Jair no 1º turno de 2022; Lula teve 3,38 milhões de votos a menos que em 2022 (Estadão). Corrige os números parciais 47,08/45,10 do card de 04/10.",
+    "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-lidera-onda-bolsonarista-ao-superar-o-proprio-pai-e-ir-ao-2o-turno-em-vantagem-contra-lula.shtml",
+    "tags": [
+      "resultado-oficial",
+      "Flávio",
+      "Lula",
+      "TSE",
+      "2º-turno"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-05-zema-caiado",
+    "date": "2026-10-05",
+    "source": "R7",
+    "title": "Zema declara voto em Flávio; Caiado encontra Flávio nesta terça (6) em Goiânia para selar apoio",
+    "summary": "Zema: \"Não vou me omitir nem ficar em cima do muro. Voto contra o PT. Voto no Flávio Bolsonaro.\" Segundo o R7, Caiado acertou por telefone um encontro com Flávio em Goiânia na terça (6) para confirmar a aliança. Cury fica neutro e Renan Santos liberou os eleitores.",
+    "url": "https://noticias.r7.com/eleicoes/2026/caiado-e-zema-declaram-apoio-a-flavio-no-2-turno-cury-e-renan-evitam-escolher-lado-05102026/",
+    "tags": [
+      "apoios",
+      "Zema",
+      "Caiado",
+      "Flávio",
+      "2º-turno"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-05-lula-stf",
+    "date": "2026-10-05",
+    "source": "Folha / Estadão",
+    "title": "Lula agora culpa a \"promiscuidade\" do STF e se diz \"o único antissistema\"",
+    "summary": "Na primeira reunião pós-1º turno, Lula disse: \"Estamos carregando nas costas uma coisa muito grave que é a promiscuidade que ficou estabelecida na Suprema Corte\". Também chamou Flávio de \"a cara do sistema\" e disse que só ele é antissistema — o presidente que busca o 4º mandato.",
+    "url": "https://www1.folha.uol.com.br/poder/2026/10/lula-diz-carregar-promiscuidade-do-stf-na-campanha-e-chama-flavio-bolsonaro-de-cara-do-sistema.shtml",
+    "tags": [
+      "Lula",
+      "STF",
+      "antissistema",
+      "contradição"
+    ]
+  },
+  {
     "id": "hoje-2026-10-04-1t",
     "date": "2026-10-04",
     "source": "TSE / apuração 1º turno",
     "title": "1º turno: Flávio Bolsonaro 47,08% × Lula 45,10% — 2º turno até 25/10",
-    "summary": "Noite do 1º turno confirma Flávio Bolsonaro (PL) na frente com 47,08% dos votos válidos contra 45,10% de Lula (PT). O segundo turno está marcado para 25/10/2026.",
+    "summary": "Noite do 1º turno confirma Flávio Bolsonaro (PL) na frente com 47,08% dos votos válidos contra 45,10% de Lula (PT). O segundo turno está marcado para 25/10/2026. A direita comemora a virada de tendência e já articula munição para o enfrentamento final.",
     "url": "https://www.tse.jus.br/",
-    "tags": ["eleição", "1º-turno", "Flávio", "Lula", "2º-turno"]
+    "tags": [
+      "eleição",
+      "1º-turno",
+      "Flávio",
+      "Lula",
+      "2º-turno"
+    ]
   }
 ]

@@ -1,11 +1,86 @@
 [
   {
+    "id": "not-2026-10-05-zema",
+    "date": "2026-10-05",
+    "source": "R7 / CNN Brasil",
+    "title": "Zema (Novo) fecha com Flávio: \"Voto contra o PT\"",
+    "summary": "Em post nas redes, Zema afirmou: \"Nós ainda temos uma grande batalha agora, dia 25. Derrotar o Lula e o PT. Eu não vou me omitir nem ficar em cima do muro\". O Novo atingiu a cláusula de barreira.",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/quem-zema-cury-renan-e-caiado-apoiarao-no-segundo-turno-entenda/",
+    "tags": [
+      "Zema",
+      "Novo",
+      "apoio",
+      "Flávio"
+    ]
+  },
+  {
+    "id": "not-2026-10-05-caiado",
+    "date": "2026-10-05",
+    "source": "R7 / Correio do Povo",
+    "title": "Caiado (PSD) se alinha a Flávio; PSD nacional mantém diretórios livres",
+    "summary": "O R7 informa que Caiado declarou apoio e encontra Flávio em Goiânia na terça (6). Em nota, o PSD nacional manteve a liberdade de diretórios estaduais e parlamentares no 2º turno.",
+    "url": "https://noticias.r7.com/eleicoes/2026/caiado-e-zema-declaram-apoio-a-flavio-no-2-turno-cury-e-renan-evitam-escolher-lado-05102026/",
+    "tags": [
+      "Caiado",
+      "PSD",
+      "apoio",
+      "Flávio"
+    ]
+  },
+  {
+    "id": "not-2026-10-05-pt-pancada",
+    "date": "2026-10-05",
+    "source": "CNN Brasil",
+    "title": "No PT, o resultado foi \"uma pancada\"; aposta agora é centro e fim da escala 6x1",
+    "summary": "Segundo a CNN, o clima no hotel do PT na apuração foi de \"bastante preocupação\". A campanha de Lula avalia que eleitores de Zema, Caiado e Renan são majoritariamente antipetistas e mira o centro, intensificando ataques a Flávio e usando a PEC do fim da escala 6x1.",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/veja-quais-caminhos-as-campanhas-de-flavio-e-lula-devem-seguir-no-2-turno/",
+    "tags": [
+      "PT",
+      "Lula",
+      "estratégia",
+      "6x1"
+    ]
+  },
+  {
+    "id": "not-2026-10-05-renan",
+    "date": "2026-10-05",
+    "source": "Correio Braziliense",
+    "title": "Renan Santos (Missão) libera eleitores e diz que \"a eleição já é do Flávio\"",
+    "summary": "Quarto colocado (2,24%), Renan disse que não apoiará ninguém e criticou os dois finalistas, mas avaliou que o 2º turno favorece Flávio. Cury (2,89%) ficará em silêncio total. Os ~9 milhões de votos dos demais candidatos estão em disputa.",
+    "url": "https://www.correiobraziliense.com.br/politica/2026/10/7514863-lula-x-flavio-como-se-posicionam-cury-renan-caiado-e-zema-para-o-2-turno.html",
+    "tags": [
+      "Renan",
+      "Cury",
+      "terceira-via",
+      "votos-em-disputa"
+    ]
+  },
+  {
+    "id": "not-2026-10-05-mercado",
+    "date": "2026-10-05",
+    "source": "Liberta Investimentos (parceria no perfil de Ruschel)",
+    "title": "Mercado reage ao 1º turno: Ibovespa futuro sobe mais de 8%, dólar abaixo de R$ 5",
+    "summary": "Segundo post da Liberta Investimentos em parceria com Ruschel, o Ibovespa futuro chegou a subir mais de 8% e o dólar caiu mais de 4%, abaixo de R$ 5, após o resultado. Conferir número de fechamento em fonte de mercado antes de repassar.",
+    "url": "https://www.instagram.com/p/DeHef_alW57/",
+    "tags": [
+      "mercado",
+      "Ibovespa",
+      "dólar",
+      "Flávio"
+    ]
+  },
+  {
     "id": "not-2026-10-04-flavio",
     "date": "2026-10-04",
     "source": "Apuração oficial / cobertura direita",
     "title": "Flávio lidera 1º turno e força 2º turno com Lula em 25/10",
-    "summary": "Flávio Bolsonaro (PL) encerra o 1º turno com 47,08% dos válidos, à frente de Lula (PT) com 45,10%. Cenário de segundo turno até 25/10/2026.",
+    "summary": "Flávio Bolsonaro (PL) encerra o 1º turno com 47,08% dos válidos, à frente de Lula (PT) com 45,10%. Cenário de segundo turno até 25/10/2026. Agenda da direita: consolidar votos, combater nulo/branco e pressionar comitês regionais.",
     "url": "https://www.tse.jus.br/",
-    "tags": ["notícia", "Flávio", "direita", "2º-turno"]
+    "tags": [
+      "notícia",
+      "Flávio",
+      "direita",
+      "2º-turno"
+    ]
   }
 ]

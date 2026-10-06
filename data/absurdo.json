@@ -1,11 +1,43 @@
 [
   {
+    "id": "abs-2026-10-05-antissistema",
+    "date": "2026-10-05",
+    "source": "SBT News / Folha",
+    "title": "ABSURDO: presidente em busca do 4º mandato diz ser \"o único antissistema\"",
+    "summary": "Lula disse \"Só tem um candidato antissistema: eu\". O SBT News lembra que, durante a campanha, Lula fez vários acenos a ministros do STF, inclusive em reuniões fora da agenda. Agora o mesmo Supremo virou culpado pela derrota no 1º turno.",
+    "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-campanha-foi-manchada-por-promiscuidade-do-stf",
+    "tags": [
+      "absurdo",
+      "Lula",
+      "antissistema",
+      "STF"
+    ]
+  },
+  {
+    "id": "abs-2026-10-05-debate",
+    "date": "2026-10-05",
+    "source": "R7",
+    "title": "Depois de faltar a debates no 1º turno, Lula agora quer debate",
+    "summary": "Criticado pela ausência em debates no 1º turno, Lula disse: \"Agora é importante ter debate na televisão, porque agora é tête-à-tête\". Também prometeu \"dormir menos, trabalhar mais\" e voltar às ruas.",
+    "url": "https://noticias.r7.com/eleicoes/2026/lula-diz-que-carrega-nas-costas-promiscuidade-estabelecida-na-suprema-corte-apos-sair-atras-no-1-turno-05102026/",
+    "tags": [
+      "absurdo",
+      "Lula",
+      "debates"
+    ]
+  },
+  {
     "id": "abs-2026-10-04-nulo",
     "date": "2026-10-04",
     "source": "Boletim Coppolla / redes",
     "title": "ABSURDO: pressão por voto nulo no 2º turno — direita reage",
-    "summary": "Campanhas e influenciadores intensificam o discurso do voto nulo. Coppolla e outros respondem pedindo disciplina de voto. Nulo no 2º turno favorece quem já está no poder.",
+    "summary": "No pós-1º turno, campanhas e influenciadores da esquerda e da \"terceira via\" intensificam o discurso do voto nulo. Coppolla e outros comentaristas da direita respondem com reels pedindo disciplina de voto. Nulo no 2º turno favorece quem já está no poder — munição clara contra a omissão.",
     "url": "https://www.instagram.com/reel/DeF491sJM3_/",
-    "tags": ["absurdo", "voto-nulo", "esquerda", "2º-turno"]
+    "tags": [
+      "absurdo",
+      "voto-nulo",
+      "esquerda",
+      "2º-turno"
+    ]
   }
 ]

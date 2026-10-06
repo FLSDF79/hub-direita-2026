@@ -1,11 +1,29 @@
 [
   {
+    "id": "arq-2026-10-05",
+    "date": "2026-10-05",
+    "source": "Hub / monitor-direita",
+    "title": "Arquivo 05/10 — dia seguinte: apoios, Lula contra o STF, mercado em alta",
+    "summary": "Resultado oficial 47,03% × 45,16% (2,22 mi de votos). Zema e Caiado com Flávio. Lula culpa a 'promiscuidade' do STF e se diz antissistema. Moraes–Vorcaro de volta ao noticiário. Comentaristas: Coppolla (176K), Henkel (165K), Garcia (149K). Allan dos Santos inacessível; Augusto Nunes sem posts novos. Bruto em /workspace/monitor-direita/2026-10-05.md.",
+    "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-lidera-onda-bolsonarista-ao-superar-o-proprio-pai-e-ir-ao-2o-turno-em-vantagem-contra-lula.shtml",
+    "tags": [
+      "arquivo",
+      "05/10",
+      "digest"
+    ]
+  },
+  {
     "id": "arq-2026-10-04-noite",
     "date": "2026-10-04",
     "source": "Hub / monitor-direita",
     "title": "Arquivo 04/10 — noite do 1º turno (Ruschel, Coppolla, Ricardo Brasil)",
-    "summary": "Registro da noite do 1º turno: Flávio 47,08% × Lula 45,10%. Reels: Ruschel, Coppolla (231K) e Ricardo Brasil (65K).",
+    "summary": "Registro da noite do 1º turno: Flávio 47,08% × Lula 45,10%. Reels monitorados — Ruschel (onda da direita), Coppolla (anti-voto-nulo, 231K curtidas) e Ricardo Brasil (mobilização, 65K). Fonte bruta em /workspace/monitor-direita/2026-10-04.md.",
     "url": "https://www.instagram.com/leandroruschel/",
-    "tags": ["arquivo", "04/10", "1º-turno", "digest"]
+    "tags": [
+      "arquivo",
+      "04/10",
+      "1º-turno",
+      "digest"
+    ]
   }
 ]

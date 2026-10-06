@@ -1,11 +1,58 @@
 [
   {
+    "id": "stf-2026-10-05-moraes-vorcaro",
+    "date": "2026-10-05",
+    "source": "O Globo (Lauro Jardim) / iG",
+    "title": "Moraes e Vorcaro teriam retomado contato \"por canais discretos\"",
+    "summary": "O colunista Lauro Jardim publicou em 04/10 que o contato entre Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro (preso na Papudinha) foi restabelecido, sem detalhar canal, data ou conteúdo. Relatório da PF já apontava 52 mensagens e ao menos 8 encontros, além de contrato de cerca de R$ 131 mi do Master com o escritório da esposa do ministro. É informação de coluna: citar como 'segundo Lauro Jardim'.",
+    "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/10/vorcaro-e-moraes-retomam-contato-por-canais-discretos.ghtml",
+    "tags": [
+      "STF",
+      "Moraes",
+      "Vorcaro",
+      "Master"
+    ]
+  },
+  {
+    "id": "stf-2026-10-05-visita",
+    "date": "2026-10-05",
+    "source": "Valor Econômico",
+    "title": "Candidato a presidente proibido de visitar o pai: defesa pede a Moraes liberar visita de Flávio",
+    "summary": "Flávio está proibido de visitar Jair Bolsonaro desde 13/07, quando leu numa live uma carta do pai; Moraes viu violação da cautelar sobre redes sociais. A vedação termina no domingo (11). A defesa pediu uma visita \"exclusivamente familiar\".",
+    "url": "https://valor.globo.com/politica/noticia/2026/10/05/defesa-de-jair-bolsonaro-pede-que-alexandre-de-moraes-autorize-visita-de-flvio.ghtml",
+    "tags": [
+      "STF",
+      "Moraes",
+      "Flávio",
+      "Bolsonaro"
+    ]
+  },
+  {
+    "id": "stf-2026-10-05-multa",
+    "date": "2026-10-05",
+    "source": "O Tempo",
+    "title": "TSE (Mendonça) multa Flávio em R$ 5 mil por impulsionar propaganda negativa contra Lula",
+    "summary": "Segundo O Tempo, o ministro André Mendonça multou Flávio por impulsionamento pago de propaganda negativa, mas não mandou remover o conteúdo; só proibiu novo impulsionamento do mesmo material.",
+    "url": "https://www.otempo.com.br/eleicoes/2026/2026/10/5/mendonca-multa-flavio-bolsonaro-por-impulsionar-propaganda-negativa-contra-lula",
+    "tags": [
+      "TSE",
+      "multa",
+      "propaganda",
+      "Flávio"
+    ]
+  },
+  {
     "id": "stf-2026-10-04-censura",
     "date": "2026-10-04",
     "source": "Monitor de perfis / contexto judicial",
     "title": "STF e censura: perfis da direita ainda bloqueados no Brasil",
-    "summary": "Paulo Figueiredo, Allan dos Santos e Monark seguem com contas bloqueadas ou withheld no Brasil. Registrar cada bloqueio e decisão nova no arquivo diário.",
+    "summary": "No radar do 2º turno: Paulo Figueiredo (contas bloqueadas por ordem do STF), Allan dos Santos (bloqueado desde 2021) e Monark (X/IG withheld). Comentaristas acessíveis via VPN ou contas reserva. Registrar cada bloqueio e decisão nova no arquivo diário.",
     "url": "https://x.com/realpfigueiredo",
-    "tags": ["STF", "censura", "bloqueio", "Figueiredo"]
+    "tags": [
+      "STF",
+      "censura",
+      "bloqueio",
+      "Figueiredo"
+    ]
   }
 ]
