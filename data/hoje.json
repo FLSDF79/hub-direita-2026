@@ -1,5 +1,88 @@
 [
   {
+    "id": "hoje-not-2026-10-06-pp-uniao",
+    "date": "2026-10-06",
+    "source": "O Globo",
+    "title": "PP e União Brasil, com cargos no governo Lula, fecham apoio a Flávio",
+    "summary": "Decisão unânime das Executivas, segundo Tereza Cristina: os partidos \"fecharam questão\" por Flávio. O jornal chama de revés para Lula. Ato com Flávio previsto para quarta (7) em Brasília; Republicanos reúne a bancada na quarta, com tendência de apoio.",
+    "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/pp-e-uniao-brasil-decidem-apoiar-flavio-bolsonaro-no-2o-turno-em-reves-a-lula.ghtml",
+    "tags": [
+      "apoios",
+      "PP",
+      "União Brasil",
+      "Centrão",
+      "Flávio"
+    ]
+  },
+  {
+    "id": "hoje-not-2026-10-06-fgv",
+    "date": "2026-10-06",
+    "source": "Folha (Voto a Voto / FGV Cepesp)",
+    "title": "FGV Cepesp: Lula tem só 19% a 29,5% de chance de virada",
+    "summary": "Lula precisaria de cerca de 62% dos votos dos eliminados. O modelo estrutural projeta 51,1% a 48,9% para Flávio (70,5% de chance); o ideológico, 52,2% a 47,8% (81%). Datafolha de 2º turno sai quinta (8/10) à noite.",
+    "url": "https://www1.folha.uol.com.br/colunas/voto-a-voto/2026/10/lula-contra-a-matematica-no-2o-turno.shtml",
+    "tags": [
+      "projeção",
+      "FGV",
+      "matemática",
+      "virada"
+    ]
+  },
+  {
+    "id": "hoje-stf-2026-10-06-gilmar-vorcaro",
+    "date": "2026-10-06",
+    "source": "Estadão",
+    "title": "Mensagens: advogado tentou aproximar Vorcaro de Gilmar (\"GM queria que vc fosse jantar com ele\")",
+    "summary": "Diálogos obtidos pelo Estadão relatam tentativa de jantar com Gilmar e participação do então cunhado dele, Chiquinho Feitosa, a quem o Master pagava R$ 500 mil mensais. Gilmar nega o jantar e qualquer contato sobre o Master.",
+    "url": "https://www.estadao.com.br/politica/advogado-tentou-aproximacao-de-vorcaro-e-gilmar-mendes-gm-queria-que-vc-fosse-jantar-com-ele/",
+    "tags": [
+      "Gilmar",
+      "Vorcaro",
+      "Master",
+      "STF"
+    ]
+  },
+  {
+    "id": "hoje-abs-2026-10-06-medo",
+    "date": "2026-10-06",
+    "source": "Valor Econômico",
+    "title": "Lula aposta no medo de cortes sociais, e a própria campanha admite que Flávio é \"teflon\"",
+    "summary": "Vídeo de Lula liga o \"tesouraço\" de Flávio a cortes em Farmácia Popular, MCMV e merenda (\"Se o pai fez isso, imagina o filho\"). Integrantes da campanha admitem que a tática de mostrar \"quem é Flávio\" não deu efeito.",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/06/lula-aposta-em-ameaa-de-cortes-em-programas-sociais-em-ofensiva-contra-flvio.ghtml",
+    "tags": [
+      "Lula",
+      "campanha do medo",
+      "programas sociais"
+    ]
+  },
+  {
+    "id": "hoje-fora-2026-10-06-faltou",
+    "date": "2026-10-06",
+    "source": "Folha de S.Paulo",
+    "title": "Site do TSE marca \"Faltou\" para quem votou, inclusive Lula e Flávio",
+    "summary": "A Folha testou com os dados de Lula e de Flávio e o site mostrou \"Faltou\". O TSE diz que o comparecimento ainda está em processamento, com conclusão até 11/10.",
+    "url": "https://www1.folha.uol.com.br/poder/2026/10/site-do-tse-indica-ausencia-no-1o-turno-para-eleitores-que-votaram.shtml",
+    "tags": [
+      "TSE",
+      "falha",
+      "anomalia"
+    ]
+  },
+  {
+    "id": "hoje-com-henkel-2026-10-06-impeachment",
+    "date": "2026-10-06",
+    "source": "Ana Paula Henkel (@anapaulavolei)",
+    "title": "\"É o que as urnas pediram\": bancada do PL no Senado para impeachment de ministros",
+    "summary": "\"O povo não elegeu essa bancada do PL e tantos outros por acaso... foi colocada no Senado para impeachment de ministros do STF. É o que as urnas pediram.\" No X, ela completa pedindo que não empurrem nenhum \"acordão\". 35 mil curtidas no IG.",
+    "url": "https://www.instagram.com/p/DeKcOPfP3e_/",
+    "tags": [
+      "Henkel",
+      "STF",
+      "impeachment",
+      "Senado"
+    ]
+  },
+  {
     "id": "hoje-2026-10-05-oficial",
     "date": "2026-10-05",
     "source": "TSE via Folha / Estadão / Portal Contexto",

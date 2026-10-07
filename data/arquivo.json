@@ -1,5 +1,18 @@
 [
   {
+    "id": "arq-2026-10-06",
+    "date": "2026-10-06",
+    "source": "Hub / monitor-direita",
+    "title": "Arquivo 06/10 — Centrão fecha com Flávio, Gilmar–Vorcaro, impeachment no STF vira pauta",
+    "summary": "PP e União Brasil fecham questão por Flávio; Caiado e Vilela aderem em Goiânia. FGV Cepesp dá a Lula 19%–29,5% de chance de virada. Lula aposta no medo e em 6x1/Mounjaro; PT culpa Sidônio. Mensagens Vorcaro–Gilmar. TSE explica pausa e erra \"Faltou\". Comentaristas: impeachment de ministros e \"acordão\" (Coppolla 117K, Henkel 35K). Allan inacessível; Garcia sem posts. Bruto em /workspace/monitor-direita/2026-10-06.md.",
+    "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/pp-e-uniao-brasil-decidem-apoiar-flavio-bolsonaro-no-2o-turno-em-reves-a-lula.ghtml",
+    "tags": [
+      "arquivo",
+      "06/10",
+      "digest"
+    ]
+  },
+  {
     "id": "arq-2026-10-05",
     "date": "2026-10-05",
     "source": "Hub / monitor-direita",
@@ -22,7 +35,6 @@
     "tags": [
       "arquivo",
       "04/10",
-      "1º-turno",
       "digest"
     ]
   }

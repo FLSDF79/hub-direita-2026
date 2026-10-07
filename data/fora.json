@@ -1,5 +1,31 @@
 [
   {
+    "id": "fora-2026-10-06-pausa",
+    "date": "2026-10-06",
+    "source": "O Globo",
+    "title": "TSE explica pausa de 50 minutos na apuração e muda rotina para o 2º turno",
+    "summary": "Falha das 19h14 às 20h04, com 64,81% apurado, só no painel nacional; o cálculo da totalização ficou suspenso por protocolo de segurança. TI abriu investigação e prepara nova rotina; TSE nega fraude.",
+    "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/tse-diz-que-problema-no-processamento-de-dados-interrompeu-divulgacao-de-votos-por-quase-uma-hora-e-prepara-mudanca-para-2o-turno.ghtml",
+    "tags": [
+      "TSE",
+      "apuração",
+      "falha"
+    ]
+  },
+  {
+    "id": "fora-2026-10-06-faltou",
+    "date": "2026-10-06",
+    "source": "Folha de S.Paulo",
+    "title": "Site do TSE marca \"Faltou\" para quem votou, inclusive Lula e Flávio",
+    "summary": "A Folha testou com os dados de Lula e de Flávio e o site mostrou \"Faltou\". O TSE diz que o comparecimento ainda está em processamento, com conclusão até 11/10.",
+    "url": "https://www1.folha.uol.com.br/poder/2026/10/site-do-tse-indica-ausencia-no-1o-turno-para-eleitores-que-votaram.shtml",
+    "tags": [
+      "TSE",
+      "falha",
+      "anomalia"
+    ]
+  },
+  {
     "id": "fora-2026-10-05-atraso-tse",
     "date": "2026-10-05",
     "source": "CNN Brasil",

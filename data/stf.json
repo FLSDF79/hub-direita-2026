@@ -1,5 +1,60 @@
 [
   {
+    "id": "stf-2026-10-06-gilmar-vorcaro",
+    "date": "2026-10-06",
+    "source": "Estadão",
+    "title": "Mensagens: advogado tentou aproximar Vorcaro de Gilmar (\"GM queria que vc fosse jantar com ele\")",
+    "summary": "Diálogos obtidos pelo Estadão relatam tentativa de jantar com Gilmar e participação do então cunhado dele, Chiquinho Feitosa, a quem o Master pagava R$ 500 mil mensais. Gilmar nega o jantar e qualquer contato sobre o Master.",
+    "url": "https://www.estadao.com.br/politica/advogado-tentou-aproximacao-de-vorcaro-e-gilmar-mendes-gm-queria-que-vc-fosse-jantar-com-ele/",
+    "tags": [
+      "Gilmar",
+      "Vorcaro",
+      "Master",
+      "STF"
+    ]
+  },
+  {
+    "id": "stf-2026-10-06-gilmar-urnas",
+    "date": "2026-10-06",
+    "source": "Valor Econômico",
+    "title": "Gilmar ironiza: \"notável\" que ninguém conteste as urnas após onda de direita",
+    "summary": "Gilmar escreveu no X que é \"notável que nenhum líder político proeminente tenha contestado resultados desse tipo\", citando o Paraná (50,10%), e ironizou Trump. Ministro comentando resultado em pleno 2º turno.",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/06/apos-onda-de-direita-gilmar-mendes-diz-ser-notavel-a-falta-de-questionamento-sobre-urnas.ghtml",
+    "tags": [
+      "Gilmar",
+      "STF",
+      "urnas"
+    ]
+  },
+  {
+    "id": "stf-2026-10-06-pgr-visitas",
+    "date": "2026-10-06",
+    "source": "Agência Brasil",
+    "title": "PGR não se opõe à volta das visitas de Flávio ao pai; Moraes ainda não decidiu",
+    "summary": "Gonet: sem fatos novos, a PGR \"não opõe óbice ao deferimento do pleito\". A suspensão de 90 dias vence em 11/10. Moraes ainda não decidiu.",
+    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-da-parecer-favoravel-retomada-de-visitas-de-flavio-ao-pai",
+    "tags": [
+      "Moraes",
+      "PGR",
+      "Bolsonaro",
+      "visitas"
+    ]
+  },
+  {
+    "id": "stf-2026-10-06-8jan",
+    "date": "2026-10-06",
+    "source": "Veja",
+    "title": "Após onda de direita nas urnas, Moraes movimenta processos do 8 de Janeiro",
+    "summary": "Moraes concedeu progressão de regime a dois condenados do 8/1, entre eles a \"Débora do Batom\", ao movimentar ao menos 11 ações. No mesmo dia se declarou impedido no habeas corpus de Jair Bolsonaro (CartaCapital).",
+    "url": "https://veja.abril.com.br/politica/apos-onda-de-direita-nas-urnas-moraes-movimenta-processos-relativos-ao-8-de-janeiro/",
+    "tags": [
+      "Moraes",
+      "8 de Janeiro",
+      "Débora",
+      "STF"
+    ]
+  },
+  {
     "id": "stf-2026-10-05-moraes-vorcaro",
     "date": "2026-10-05",
     "source": "O Globo (Lauro Jardim) / iG",

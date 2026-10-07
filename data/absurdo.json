@@ -1,5 +1,61 @@
 [
   {
+    "id": "abs-2026-10-06-medo",
+    "date": "2026-10-06",
+    "source": "Valor Econômico",
+    "title": "Lula aposta no medo de cortes sociais, e a própria campanha admite que Flávio é \"teflon\"",
+    "summary": "Vídeo de Lula liga o \"tesouraço\" de Flávio a cortes em Farmácia Popular, MCMV e merenda (\"Se o pai fez isso, imagina o filho\"). Integrantes da campanha admitem que a tática de mostrar \"quem é Flávio\" não deu efeito.",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/06/lula-aposta-em-ameaa-de-cortes-em-programas-sociais-em-ofensiva-contra-flvio.ghtml",
+    "tags": [
+      "Lula",
+      "campanha do medo",
+      "programas sociais"
+    ]
+  },
+  {
+    "id": "abs-2026-10-06-6x1",
+    "date": "2026-10-06",
+    "source": "Estadão",
+    "title": "Fim da 6x1 no meio do 2º turno: \"oportunismo\", diz Flávio",
+    "summary": "Alcolumbre indica votação da PEC na semana que vem, antes do 2º turno. Flávio: \"O governo Lula, em quatro anos de governo, não faz. Agora, no meio do segundo turno, ele vem de uma forma oportunista.\"",
+    "url": "https://www.estadao.com.br/economia/oportunismo-1-teste-flavio-e-lula-iniciam-disputa-do-2-turno-em-embate-sobre-fim-da-6x1/",
+    "tags": [
+      "6x1",
+      "PEC",
+      "eleitoreiro",
+      "Lula"
+    ]
+  },
+  {
+    "id": "abs-2026-10-06-cartadas",
+    "date": "2026-10-06",
+    "source": "Gazeta do Povo",
+    "title": "Mounjaro no SUS, teto do MEI e 6x1: as cartadas de Lula para tentar virar",
+    "summary": "Lula: \"Agora até a canetinha de emagrecimento a gente vai fazer com que as pessoas que precisem vão ter de graça pelo SUS\". Pacote inclui teto do MEI de R$ 81 mil para R$ 140 mil; analistas questionam diante da situação fiscal.",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/lula-segundo-turno-cartadas-economicas/",
+    "tags": [
+      "Lula",
+      "eleitoreiro",
+      "gastos",
+      "SUS",
+      "MEI"
+    ]
+  },
+  {
+    "id": "abs-2026-10-06-sidonio",
+    "date": "2026-10-06",
+    "source": "BNews (citando Estadão)",
+    "title": "PT culpa Sidônio pelo 1º turno; Edinho acusa, sem provas, interferência dos EUA",
+    "summary": "Cúpula do PT responsabiliza o ministro Sidônio Palmeira, inclusive por convencer Lula a acabar com as bets na véspera, e chama de \"pífio\" o trabalho nas redes. Edinho Silva acusou sem provas interferência estrangeira.",
+    "url": "https://www.bnews.com.br/noticias/politica/pt-responsabiliza-sidonio-por-desempenho-de-lula-no-1-turno-e-discute-mudancas-na-campanha.html",
+    "tags": [
+      "PT",
+      "racha",
+      "Sidônio",
+      "Edinho"
+    ]
+  },
+  {
     "id": "abs-2026-10-05-antissistema",
     "date": "2026-10-05",
     "source": "SBT News / Folha",

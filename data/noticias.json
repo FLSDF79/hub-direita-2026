@@ -1,5 +1,90 @@
 [
   {
+    "id": "not-2026-10-06-pp-uniao",
+    "date": "2026-10-06",
+    "source": "O Globo",
+    "title": "PP e União Brasil, com cargos no governo Lula, fecham apoio a Flávio",
+    "summary": "Decisão unânime das Executivas, segundo Tereza Cristina: os partidos \"fecharam questão\" por Flávio. O jornal chama de revés para Lula. Ato com Flávio previsto para quarta (7) em Brasília; Republicanos reúne a bancada na quarta, com tendência de apoio.",
+    "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/pp-e-uniao-brasil-decidem-apoiar-flavio-bolsonaro-no-2o-turno-em-reves-a-lula.ghtml",
+    "tags": [
+      "apoios",
+      "PP",
+      "União Brasil",
+      "Centrão",
+      "Flávio"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-caiado",
+    "date": "2026-10-06",
+    "source": "G1 Goiás",
+    "title": "Caiado e Daniel Vilela declaram apoio a Flávio em ato com Tarcísio em Goiânia",
+    "summary": "Caiado: \"Goiás vai dar a maior vitória ao Flávio Bolsonaro nessa eleição. A mobilização vai ser em tempo integral.\" O G1 nota que os votos de Caiado (2,18%) superam a diferença entre Flávio e Lula no 1º turno.",
+    "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/caiado-goias-apoio-flavio-campanha-2turno.ghtml",
+    "tags": [
+      "apoios",
+      "Caiado",
+      "Goiás",
+      "Tarcísio"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-debates",
+    "date": "2026-10-06",
+    "source": "O Globo",
+    "title": "Flávio confirma que vai a debates e busca Republicanos e Podemos",
+    "summary": "Flávio disse que irá a debates no 2º turno e lembrou o último debate do 1º turno, \"em que houve uma interferência dos ministros do Lula, tanto no TSE como no STF\". Prometeu reduzir a carga tributária.",
+    "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/flavio-apoios.ghtml",
+    "tags": [
+      "Flávio",
+      "debates",
+      "Republicanos",
+      "Podemos"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-constituicao",
+    "date": "2026-10-06",
+    "source": "Valor Econômico",
+    "title": "Flávio: \"Lula deve o seu mandato ao Alexandre de Moraes\"",
+    "summary": "Em Goiânia, Flávio disse que o novo Congresso tem maioria para eleger os presidentes das Casas \"para a gente mudar a Constituição, para redemocratizar esse país\" e que Lula \"compartilhou a Presidência\" com Moraes. Prometeu indicar ao STF nomes contra aborto e drogas.",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/06/flavio-bolsonaro-diz-que-usara-maioria-no-congresso-para-mudar-a-constituicao-federal.ghtml",
+    "tags": [
+      "Flávio",
+      "Moraes",
+      "Congresso",
+      "STF"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-fgv",
+    "date": "2026-10-06",
+    "source": "Folha (Voto a Voto / FGV Cepesp)",
+    "title": "FGV Cepesp: Lula tem só 19% a 29,5% de chance de virada",
+    "summary": "Lula precisaria de cerca de 62% dos votos dos eliminados. O modelo estrutural projeta 51,1% a 48,9% para Flávio (70,5% de chance); o ideológico, 52,2% a 47,8% (81%). Datafolha de 2º turno sai quinta (8/10) à noite.",
+    "url": "https://www1.folha.uol.com.br/colunas/voto-a-voto/2026/10/lula-contra-a-matematica-no-2o-turno.shtml",
+    "tags": [
+      "projeção",
+      "FGV",
+      "matemática",
+      "virada"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-mercado",
+    "date": "2026-10-06",
+    "source": "G1",
+    "title": "Mercado aposta em troca de governo: Ibovespa acima de 200 mil e dólar a R$ 5",
+    "summary": "O G1 explica que o 1º turno contrariou a maioria das pesquisas e fez o mercado ver como provável uma troca de governo com ajuste fiscal; dólar caiu 4,12% e juros futuros recuaram. Em 06/10 houve realização de lucros.",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/06/ibovespa-dispara-e-dolar-cai-apos-1o-turno-por-que-a-vantagem-de-flavio-sobre-lula-animou-o-mercado.ghtml",
+    "tags": [
+      "mercado",
+      "Ibovespa",
+      "dólar",
+      "fiscal"
+    ]
+  },
+  {
     "id": "not-2026-10-05-zema",
     "date": "2026-10-05",
     "source": "R7 / CNN Brasil",
